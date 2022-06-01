@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: crimson;
+    /* filter: blur(2px); */
+    height: 80px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#header-img {
+    width: 150px;
+    overflow: auto;
+    position: absolute;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+#nav-bar #nav-icon{
+    display: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
+}
+
+nav ul li a {
+    padding: 7px 13px;
+}
+
+nav ul li {
+    margin: 0 5px;
+    line-height: 80px;
+}
+
+#navlink {
+    float: right;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    display: block;
+}
+
+body #form {
+    text-align: center;
+}
+#email-label{
+    font-size: 30px;
+    font-weight: 700;
+}
+input[type="email"]{
+    width: 20%;
+    padding: 10px;
+    margin: 20px;
+}
+input[type=submit]{
+    width: 10%;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#features{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    border-ra
+}
+#feature1, #feature2, #feature{
+    display: flex;
+    width: 60%;
+    margin: 20px;
+    color: white;
+}
+#features i{
+    padding: 20px;
+    font-size: 50px;
+}
+body iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#price-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+#price-list1, #price-list2, #price-list3{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: crimson;
+}
+#price-list h3{
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+ol li{
+    list-style-type: none;
+    color: white;
+}
+#footer-item-1, #footer-item-2, #footer-item-3{
+    margin: 10px;
+}
+@media (max-width: 600px){
+    body {
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #nav-bar #nav-icon{
+        display: block !important;
+        float: right;
+        color: white;
+    }
+    input[type="email"]{
+        width: 80%;
+        padding: 10px;
+        margin: 20px;
+    }
+    input[type=submit]{
+        width: 80%;
+        height: 30px;
+        background-color: crimson;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    #features{
+        width: 100%;
+    }
+    #feature1, #feature2, #feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        margin: 20px;
+        color: white;
+    }
+    #features i{
+        padding: 20px;
+        font-size: 50px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #features h2{
+        text-align: center;
+    }
+    #d1, #d2, #d3{
+        text-align: justify;
+    }
+    body iframe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        width: 350px;
+        height: 240px;
+    }
+    #price-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #price-list1, #price-list2, #price-list3{
+        width: 350px;
+        height: 240px;
+    }
+}
+#footer{
+    background-color: crimson;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: white;
+    padding: 14px 20px;
+    justify-content: center;
+}
